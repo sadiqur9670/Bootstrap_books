@@ -1,0 +1,127 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  
+  
+  }
+.search-box{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background:#E4ECF0;;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0px;
+}
+.search-box:hover > .search-txt{
+  width: 500px;
+  padding: 0 6px;
+
+}
+.search-box:hover > .search-btn{
+  background: white;
+
+}
+
+.search-btn{
+  color: #e84778;
+
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  
+}
+.search-txt{
+  margin: 0px;
+  
+  border:none;
+  background: none;
+  outline: none;
+  float: left;
+ 
+  color: #e84778;
+  font-size: 15px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+.notify-bar{
+  margin: 10px;
+  
+}
+ 
+ @media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+}
+.btn-round { border-radius: 30px; }
+.bg-indigo { background: indigo; }
+.text-cyan { color: #35bdff; }
+
+.saidbar{
+  margin-right: 10px;
+  
+
+}
+.body{
+  
+background: #E4ECF0;
+}
+.body .navbar a{
+  margin: 20px;
+  border-radius: 50px;
+background: white;
+color: black;
+}
+
+.saidbar ul {
+    color: #fff;
+    padding: 10px;
+}
+
+
+.saidbar ul li a {
+    color:black;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+.saidbar ul li a:hover {
+  background: #E4ECF0;
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.saidbar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+.cal1{
+  margin: 0px 20px 0px 20px; border-radius: 20px; height: 120px;>
+}
+.cal2{
+  margin: 0px 20px 0px 20px; border-radius: 20px; height: 120px;>
+}
+.cal3{
+  margin: 0px 20px 0px 20px; border-radius: 20px; height: 120px;>
+}
+.cal4{
+  margin: 0px 20px 0px 20px; border-radius: 20px; height: 120px;>
+}
+.checked {
+  color: orange;
+}
